@@ -45,4 +45,4 @@
 
 - IPL is of the biggest league in entire world which is held every year. Especially for those who are fans of cricket, it cannot be said that no one knows about the Indian Premier League.
 - We know the IPL season is going on and we are all eager to know who will win the match beforehand and in the media, there is hype around the winning chances. To get the predicted score select venue, batting team, bowling tean and fill the inputs with proper information then click on predict button you will get predicted score of batting team.
-
+- The predicted score can be used by brands, sponsors, and advertisers to keep up their marketing startegies.
