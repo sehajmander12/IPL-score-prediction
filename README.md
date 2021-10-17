@@ -28,10 +28,6 @@
 ![Screenshot 2021-10-17 at 2 46 41 PM](https://user-images.githubusercontent.com/60060524/137620801-9c413cdf-10e5-4118-bd3d-10b405a4c06c.png)
 <br>
 
-
-## How to use
-- Select venue, batting team, bowling tean and fill the inputs with proper information then click on predict button you will get predicted score of batting team.
-
 ## Technologies Used
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -48,5 +44,5 @@
 ## Novelty 
 
 - IPL is of the biggest league in entire world which is held every year. Especially for those who are fans of cricket, it cannot be said that no one knows about the Indian Premier League.
-- We know the IPL season is going on and we are all eager to know who will win the match beforehand and in the media, there is hype around the winning chances.
+- We know the IPL season is going on and we are all eager to know who will win the match beforehand and in the media, there is hype around the winning chances. To get the predicted score select venue, batting team, bowling tean and fill the inputs with proper information then click on predict button you will get predicted score of batting team.
 
