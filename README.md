@@ -47,3 +47,5 @@
 
 ## Novelty 
 
+- We know the IPL season is going on and we are all eager to know who will win the match beforehand and in the media, there is hype around the winning chances.
+- 
