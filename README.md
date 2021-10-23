@@ -1,9 +1,8 @@
 # IPL Score Predictor 
+## Overview ##
+In this project, I have created a web application which will help predict the scores of any IPL team. The predicted scores are the battings scores of the specified team. With the huge number of followers that cricket has, this application has full potential of being put into proper use.
 
-#### The IPL Score Predictor project is about predicting score of batting team.
-#### This web application have IPL 2021 teams where you can predict score of batting team.
-
-## Overview
+## Methodology
 - I have IPL matches records from year 2008 to 2020.
 - I have trained machine learning model for 8 teams which were playing in year 2021.
 - Here i have performed hyperparameter tunning on various model and i got **Random Forest** as best model for this problem statement.
@@ -12,9 +11,9 @@
 - Difference of train dataset MAE and test dataset MAE is **4.805552** for Gradient Boost.
 - Difference of train dataset MAE and test dataset MAE is **0.876878** for Random Forest.
 - Here accuracy or **r2_score** of Gradient Boost algorithm is higher than Random Forest but Random Forest's **MAE** difference between train and test dataset is lower than Gradient Boost.
-- If i select Gradient Boost algorithm which has high r2_score then our model will **not perform stable** as it performed on train dataset because **MAE** difference between train and test dataset is **high** that's why it might generate **overfitting** issue.
-- If i select Radom Forest algorithm which does not have high r2_score still it will perfrom **stable** as it performed on train dataset because MAE difference between train and test dataset is **low**.
-- Here i have selected **Random Forest** algorithm with it's hyperparamter which best fit for this problem statement with around **68%** of accuracy.
+- If I select Gradient Boost algorithm which has high r2_score then our model will **not perform stable** as it performed on train dataset because **MAE** difference between train and test dataset is **high** that's why it might generate **overfitting** issue.
+- If I select Radom Forest algorithm which does not have high r2_score still it will perfrom **stable** as it performed on train dataset because MAE difference between train and test dataset is **low**.
+- Here I have selected **Random Forest** algorithm with it's hyperparamter which best fit for this problem statement with around **68%** of accuracy.
 - Application developed using Flask, Javascript, Bootstrap, CSS and HTML
 
 ## Data Source
