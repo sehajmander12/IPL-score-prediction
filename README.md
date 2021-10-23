@@ -1,24 +1,30 @@
 # IPL Score Predictor 
-## Overview ##
+
+## Overview
 In this project, I have created a web application which will help predict the scores of any IPL team. The predicted scores are the battings scores of the specified team. With the huge number of followers that cricket has, this application has full potential of being put into proper use.
 
-## Methodology
-- I have IPL matches records from year 2008 to 2020.
+## Methodology Flowchart
+
+![Blank diagram](https://user-images.githubusercontent.com/60060524/138545773-b4a7c2dd-2587-4ac2-bbc4-92e12520b148.jpeg)
+
+
+## Model Selection
 - I have trained machine learning model for 8 teams which were playing in year 2021.
-- Here i have performed hyperparameter tunning on various model and i got **Random Forest** as best model for this problem statement.
+- I performed hyperparameter tunning on various model and i got **Random Forest** as best model for this problem statement.
 - Gradient Booost algorithm gives **0.850539 r2_score** & **1.632532 MAE** on train dataset and **0.871335 r2_score** & **6.438084 MAE** on test dataset.
 - Random Forest algorithm gives **0.672894 r2_score** & **11.296707 MAE** on train dataset and **0.681484 r2_score** & **12.173585 MAE** on test dataset.
 - Difference of train dataset MAE and test dataset MAE is **4.805552** for Gradient Boost.
 - Difference of train dataset MAE and test dataset MAE is **0.876878** for Random Forest.
 - Here accuracy or **r2_score** of Gradient Boost algorithm is higher than Random Forest but Random Forest's **MAE** difference between train and test dataset is lower than Gradient Boost.
-- If I select Gradient Boost algorithm which has high r2_score then our model will **not perform stable** as it performed on train dataset because **MAE** difference between train and test dataset is **high** that's why it might generate **overfitting** issue.
-- If I select Radom Forest algorithm which does not have high r2_score still it will perfrom **stable** as it performed on train dataset because MAE difference between train and test dataset is **low**.
-- Here I have selected **Random Forest** algorithm with it's hyperparamter which best fit for this problem statement with around **68%** of accuracy.
-- Application developed using Flask, Javascript, Bootstrap, CSS and HTML
+- If I would have selected Gradient Boost algorithm which had higher r2_score then our model will **not perform stable** as it performed on train dataset because **MAE** difference between train and test dataset is **high** whcih could cause **overfitting**.
+- Even though Radom Forest algorithm does not have high r2_score but it will still have **stable** performance as it performed on train dataset because MAE difference between train and test dataset is **low**.
+- Therfore, I have selected **Random Forest** algorithm with it's hyperparamter which best fit for this problem statement.
+
 
 ## Data Source
 - The dataset is taken from Kaggle - (https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020)
 - This dataset consists of two seperate CSV files : matches and deliveries. These files contain the information of each match summary and ball by ball details, respectively
+- This dataset has IPL matches records from year 2008 to 2020
 
 ## I/O Screenshots
 ![Screenshot 2021-10-17 at 2 53 27 PM](https://user-images.githubusercontent.com/60060524/137620925-c998ed9b-d10d-4bd4-94a8-acd9df6aea17.png)
