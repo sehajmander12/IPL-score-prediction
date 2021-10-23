@@ -17,7 +17,8 @@ In this project, I have created a web application which will help predict the sc
 - Application developed using Flask, Javascript, Bootstrap, CSS and HTML
 
 ## Data Source
-- In this project i have used IPL dataset from kaggle, you can get it from [here](https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020)
+- The dataset is taken from Kaggle - (https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020)
+- This dataset consists of two seperate CSV files : matches and deliveries. These files contain the information of each match summary and ball by ball details, respectively
 
 ## I/O Screenshots
 ![Screenshot 2021-10-17 at 2 53 27 PM](https://user-images.githubusercontent.com/60060524/137620925-c998ed9b-d10d-4bd4-94a8-acd9df6aea17.png)
